@@ -1,0 +1,23 @@
+src
+├─ docs
+│  ├─ project-hierarchy.txt
+│  ├─ project_explanation.txt
+│  └─ UVM Block Diagram.jpg
+└─ tb
+   ├─ dut
+   ├─ test
+   │  ├─ env
+   │  │  ├─ agents
+   │  │  │  └─ agent
+   │  │  │     ├─ uvm_agent.sv
+   │  │  │     ├─ uvm_driver.sv
+   │  │  │     ├─ uvm_monitor.sv
+   │  │  │     └─ uvm_sequencer.sv
+   │  │  ├─ uvm_env.sv
+   │  │  └─ uvm_scoreboard.sv
+   │  ├─ uvm_sequence.sv
+   │  ├─ uvm_sequence_item.sv
+   │  └─ uvm_test.sv
+   ├─ uvm_interface.sv
+   ├─ uvm_pkg.sv
+   └─ uvm_testbench.sv
